@@ -1,10 +1,50 @@
 import React from "react";
 import "./App.css";
 
+import {
+  Header,
+  Home,
+  Contact,
+  AboutMe,
+  Languages,
+  Services,
+  WorkExperience,
+  Education,
+  TechnicalSkills,
+  GraphicSkills,
+  GraduationProject,
+  WebProjects,
+  AIProjects,
+  Tutorials,
+  Activities,
+  GlobalCompetitions,
+  Clubs,
+  CommunityWork,
+  Footer,
+} from "./Sections/index";
+
 const App = () => {
   return (
     <>
-      <h1>Qutaiba Olayyan</h1>
+      <Header />
+      <Home />
+      <Contact />
+      <AboutMe />
+      <Languages />
+      <Services />
+      <WorkExperience />
+      <Education />
+      <TechnicalSkills />
+      <GraphicSkills />
+      <GraduationProject />
+      <WebProjects />
+      <AIProjects />
+      <Tutorials />
+      <Activities />
+      <GlobalCompetitions />
+      <Clubs />
+      <CommunityWork />
+      <Footer />
     </>
   );
 };
