@@ -1,10 +1,12 @@
-import React from 'react'
-import "./App.css"
+import React from "react";
+import "./App.css";
 
-export const App = () => {
+const App = () => {
   return (
     <>
-    <h1>Qutaiba Olayyan</h1>
+      <h1>Qutaiba Olayyan</h1>
     </>
-  )
-}
+  );
+};
+
+export default App;
