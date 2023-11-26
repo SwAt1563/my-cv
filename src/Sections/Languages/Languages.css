@@ -1,0 +1,13 @@
+.languages {
+  background-color: var(--color-bg);
+}
+
+.languages .language {
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.languages .language .language-name {
+  position: absolute;
+  top: 110px;
+}

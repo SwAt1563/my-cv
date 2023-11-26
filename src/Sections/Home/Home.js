@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
     <>
-      <div className="hero">
+      <div id="hero">
         {/* Background Particles */}
         <div
           className="background-particle w-100 position-absolute top-0 left-0"

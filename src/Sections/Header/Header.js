@@ -2,6 +2,8 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import React, { useEffect, useRef } from "react";
 
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+
 const Header = () => {
   const navbarRef = useRef(null);
 
@@ -28,10 +30,17 @@ const Header = () => {
     <>
       <header className="header">
         <nav ref={navbarRef} className="navbar navbar-dark">
-          <Link className="navbar-brand" to="/#">
+          <ScrollLink
+            className="navbar-brand"
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={-30} // Adjust the offset as needed
+            duration={100} // Adjust the duration of the scroll
+          >
             <h3 className="name">QUTAIBA OLAYYAN</h3>
             <h6 className="field">Software Engineering</h6>
-          </Link>
+          </ScrollLink>
         </nav>
       </header>
     </>

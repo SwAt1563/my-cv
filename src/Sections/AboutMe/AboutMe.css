@@ -1,0 +1,23 @@
+.aboutMe {
+  background-color: var(--color-bg-secondary);
+  padding-top: 20px;
+}
+
+.aboutMe .percentage {
+  font-weight: var(--font-weight-normal);
+}
+
+.aboutMe .about-me-paragraph {
+  text-align: justify; /* Justify the text */
+  hyphens: manual; /* Enable hyphenation for better spacing */
+}
+
+.aboutMe .metrics {
+  margin-top: 20px;
+}
+
+.aboutMe .metrics .icon{
+    color: var(--color-hightlight);
+  }
+
+  

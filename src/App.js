@@ -30,6 +30,7 @@ import {
 
 import { Cursor } from "./Components/index";
 
+import Fade from "react-reveal/Fade";
 
 const App = () => {
   return (
@@ -39,12 +40,23 @@ const App = () => {
 
         <Header />
         <Home />
+        <Fade bottom>
+          <Contact />
+        </Fade>
 
-        <Contact />
-        <AboutMe />
+        <Fade bottom>
+          <AboutMe />
+        </Fade>
+
+        <Fade bottom>
+          <Languages />
+        </Fade>
+
+        <Fade bottom>
+          <Services />
+        </Fade>
+
         {/*
-      <Languages />
-      <Services />
       <WorkExperience />
       <Education />
       <TechnicalSkills />
@@ -58,8 +70,6 @@ const App = () => {
       <Clubs />
       <CommunityWork />
       <Footer /> */}
-
-       
       </Router>
     </>
   );
