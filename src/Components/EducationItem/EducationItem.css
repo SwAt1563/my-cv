@@ -1,0 +1,14 @@
+.education-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media (max-width: 576px) {
+    .education-item {
+        margin-top: 80px;
+      
+      }
+  }

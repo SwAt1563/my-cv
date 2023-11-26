@@ -1,0 +1,28 @@
+.graphic-skills {
+  background-color: var(--color-bg-secondary);
+}
+
+.graphic-skills .icon {
+  width: 50px;
+  height: 50px;
+  color: var(--color-hightlight);
+}
+
+.graphic-skills .card {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border-radius: 20px;
+  border: 2px solid var(--color-text);
+
+  transition: all 0.3s ease-in-out; /* Apply transition to all properties for smooth effect */
+}
+
+.graphic-skills .card:hover {
+  border: 5px solid var(--color-hightlight);
+  transform: scale(0.95); /* Scale down the card on hover */
+  cursor: pointer;
+}
+
+.graphic-skills .percent {
+  color: var(--color-hightlight);
+}

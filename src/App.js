@@ -64,11 +64,22 @@ const App = () => {
           <Education />
         </Fade>
 
+        <Fade bottom>
+          <TechnicalSkills />
+        </Fade>
+        <Fade bottom>
+          <GraphicSkills />
+        </Fade>
+
+        <Fade bottom>
+          <GraduationProject />
+        </Fade>
+
+        <Fade bottom>
+          <WebProjects />
+        </Fade>
+
         {/*
-      <TechnicalSkills />
-      <GraphicSkills />
-      <GraduationProject />
-      <WebProjects />
       <AIProjects />
       <Tutorials />
       <Activities />

@@ -1,3 +1,29 @@
 .education {
   background-color: var(--color-bg-secondary);
 }
+
+/* Add the following style to give space for the border */
+.items {
+  position: relative;
+  padding-left: 250px; /* Adjust to match the width of the pseudo-element */
+}
+
+.items::before {
+  content: "";
+  display: block;
+  width: 200px; /* Adjust the width as needed */
+  height: 100%;
+  border: 1px solid var(--color-text-secondary); /* Adjust the border properties as needed */
+  position: absolute;
+  left: 0px; /* Adjust the left position to overlap with the container */
+}
+
+@media (max-width: 576px) {
+  .items {
+    position: relative;
+    padding-left: 20px; /* Adjust to match the width of the pseudo-element */
+  }
+  .items::before {
+    display: none; /* Hide the border for small screens */
+  }
+}

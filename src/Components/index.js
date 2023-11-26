@@ -3,3 +3,5 @@ export { default as Background } from "./Background/Background";
 export { default as SocialIcons } from "./SocialIcons/SocialIcons";
 export { default as Morph } from "./Morph/Morph";
 export { default as Timeline } from "./Timeline/Timeline";
+export { default as EducationItem } from "./EducationItem/EducationItem";
+export { default as CustomBar } from "./CustomBar/CustomBar";

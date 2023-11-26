@@ -1,0 +1,10 @@
+.graduation-project {
+  background-color: var(--color-bg);
+}
+
+.graduation-project .loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
