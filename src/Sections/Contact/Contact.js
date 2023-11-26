@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact">
-        <Container className="mt-5">
+        <Container className="mt-5 p-3">
           <Row>
             {/* Address Column */}
             <Col md={4}>

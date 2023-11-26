@@ -56,9 +56,15 @@ const App = () => {
           <Services />
         </Fade>
 
+        <Fade bottom>
+          <WorkExperience />
+        </Fade>
+
+        <Fade bottom>
+          <Education />
+        </Fade>
+
         {/*
-      <WorkExperience />
-      <Education />
       <TechnicalSkills />
       <GraphicSkills />
       <GraduationProject />
