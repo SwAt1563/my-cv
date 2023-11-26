@@ -1,0 +1,12 @@
+/* Add your styling for the hero section */
+
+body {
+  background-color: var(--color-bg-body);
+  color: var(--color-text);
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+}
+

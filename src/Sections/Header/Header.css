@@ -1,0 +1,32 @@
+/* Initially set the navbar background to be transparent */
+.header .navbar {
+  background-color: transparent;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a class to set the background color for the navbar when scrolled */
+.header .navbar-scrolled {
+  background-color: var(--color-gray-bg);
+  transition: background-color 0.6s ease;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.header .navbar-brand {
+  margin-left: 1rem;
+}
+.header .name {
+  color: var(--px-heading);
+  text-decoration: none;
+  margin-bottom: 0rem;
+  font-weight: var(--font-weight-bold);
+}
+
+.header .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-weight: var(--font-weight-normal);
+}

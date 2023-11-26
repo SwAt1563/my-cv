@@ -1,12 +1,12 @@
 :root {
-  --color-dark: #27292a;
-  --color-darkest: #1f2122;
-  --color-light: white;
-  --color-primary: #ec6090;
-  --color-secondary: #f5d5ae;
-  --color-primary-hover: #f7a3c0;
+  --color-text: #fff;
+  --color-text-secondary: #6f737b;
 
-  --color-bg-body: var(--color-darkest);
+  --color-hightlight: rgb(99, 178, 255);
+
+  --color-bg: #01010d;
+  --color-gray-bg: #0b0b13;
+  --color-bg-body: var(--color-bg);
 
   --distance-primary: 50px;
   --padding-primary: var(--distance-primary);
@@ -14,13 +14,66 @@
   --border-radius-primary: calc(var(--distance-primary) / 2);
 
   --font-weight-bold: 900;
+  --font-weight-medium: 700;
   --font-weight-normal: 400;
+  --font-weight-small: 300;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: var(--color-bg-body);
-  font-family: "Cairo", sans-serif;
-  color: var(--color-light);
+  font-family: "Helvetica Neue", sans-serif;
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-bold);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-medium);
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-medium);
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: var(--font-weight-normal);
+}
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-normal);
+}
+
+p {
+  color: var(--color-text-secondary);
 }
