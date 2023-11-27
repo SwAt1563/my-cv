@@ -83,9 +83,13 @@ const App = () => {
           <AIProjects />
         </Fade>
 
-        <Tutorials />
+        <Fade bottom>
+          <Tutorials />
+        </Fade>
+
         {/*
       <Activities />
+     
       <GlobalCompetitions />
       <Clubs />
       <CommunityWork />
