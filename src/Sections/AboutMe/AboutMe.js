@@ -1,11 +1,13 @@
 import "./AboutMe.css";
-import ProgressBar from "react-bootstrap/ProgressBar";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import {
   faChalkboardTeacher,
   faPuzzlePiece,
 } from "@fortawesome/free-solid-svg-icons";
+
+import { HandleProgressBar } from "../../Components/index";
 
 const AboutMe = () => {
   // Soft Skills data
@@ -21,6 +23,7 @@ const AboutMe = () => {
     { label: "Face-to-Face Lectures", value: "11+", icon: faChalkboardTeacher },
     { label: "Problem Solving", value: "224+", icon: faPuzzlePiece },
   ];
+
   return (
     <>
       <div className="aboutMe">
@@ -56,7 +59,7 @@ const AboutMe = () => {
                   <span className="percentage">
                     {skill.skill} {skill.percentage}%
                   </span>
-                  <ProgressBar now={skill.percentage} variant="info" />
+                  <HandleProgressBar value={skill.percentage} />
                 </div>
               ))}
             </div>
@@ -81,7 +84,6 @@ const AboutMe = () => {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </>
