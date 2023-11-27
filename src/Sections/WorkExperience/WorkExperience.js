@@ -1,6 +1,5 @@
 import "./WorkExperience.css";
 import { Timeline } from "../../Components/index";
-
 const WorkExperience = () => {
   const timelinesData = [
     {
@@ -29,13 +28,15 @@ const WorkExperience = () => {
         <div class="container">
           <div class="main-timeline">
             {timelinesData.map((timeline, index) => (
-              <Timeline
-                key={index}
-                title={timeline.title}
-                year={timeline.year}
-                duration={timeline.duration}
-                content={timeline.content}
-              />
+             
+                <Timeline
+                  key={index}
+                  title={timeline.title}
+                  year={timeline.year}
+                  duration={timeline.duration}
+                  content={timeline.content}
+                />
+            
             ))}
           </div>
         </div>

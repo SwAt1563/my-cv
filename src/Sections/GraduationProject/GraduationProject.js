@@ -5,7 +5,7 @@ const GraduationProject = () => {
   return (
     <>
       <div className="graduation-project pt-5">
-        <h1 className="text-center">GraduationProject</h1>
+        <h1 className="text-center">Graduation Project</h1>
         <div className="loading-container">
           <ReactLoading
             type={"bars"}

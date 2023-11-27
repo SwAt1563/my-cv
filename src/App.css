@@ -6,6 +6,7 @@
 
   --color-bg: #01010d;
   --color-gray-bg: #0b0b13;
+  --color-gray-bg2: #18151f;
   --color-bg-secondary: #000c1b;
   --color-bg-body: var(--color-bg);
 
@@ -36,8 +37,10 @@ body {
   line-height: 1.5;
 }
 
-a {
+a,
+a:hover {
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }
 
 ul {

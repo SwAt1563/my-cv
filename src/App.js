@@ -79,9 +79,12 @@ const App = () => {
           <WebProjects />
         </Fade>
 
+        <Fade bottom>
+          <AIProjects />
+        </Fade>
+
+        <Tutorials />
         {/*
-      <AIProjects />
-      <Tutorials />
       <Activities />
       <GlobalCompetitions />
       <Clubs />
