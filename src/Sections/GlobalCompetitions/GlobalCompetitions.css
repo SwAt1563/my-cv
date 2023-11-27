@@ -1,3 +1,46 @@
 .global-competitions {
-    background-color: var(--color-bg-secondary);
+  background-color: var(--color-bg-secondary);
+}
+
+.global-competitions .custom-legend {
+  background-color: var(--color-hightlight);
+  color: white;
+  padding: 15px;
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+  font-weight: var(--font-weight-bold);
+}
+
+.global-competitions .custom-legend:hover {
+  opacity: 1;
+}
+
+.global-competitions .card {
+  border: 2px solid var(--color-hightlight);
+  border-radius: 10px;
+  opacity: 0.95;
+}
+
+.global-competitions .card:hover {
+  opacity: 1;
+}
+.global-competitions .card .card-icon {
+  color: var(--color-hightlight);
+}
+
+.global-competitions .card .visit-btn {
+  background-color: var(--color-text-secondary);
+  border: 0;
+}
+
+.global-competitions .card .visit-btn:hover {
+  background-color: var(--color-hightlight);
+  border: 0;
 }

@@ -35,7 +35,7 @@ const Languages = () => {
               const bar = new ProgressBar.Circle(circle, {
                 strokeWidth: 6,
                 easing: "easeInOut",
-                duration: 1400,
+                duration: 3000,
                 color: "var(--color-hightlight)",
                 trailColor: "var(--color-text-secondary)",
                 trailWidth: 6,

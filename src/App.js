@@ -94,9 +94,11 @@ const App = () => {
         <Fade bottom>
           <GlobalCompetitions />
         </Fade>
+        <Fade bottom>
+          <Clubs />
+        </Fade>
 
         {/*
-      <Clubs />
       <CommunityWork />
       <Footer /> */}
       </Router>
