@@ -6,6 +6,10 @@
   height: 400px;
 }
 
+.tutorials .contents {
+  cursor: grab;
+}
+
 .tutorials .watch-btn {
   background-color: var(--color-bg);
   border: 0;

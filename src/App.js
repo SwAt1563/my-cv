@@ -88,12 +88,14 @@ const App = () => {
         </Fade>
 
         <Fade bottom>
-        <Activities />
+          <Activities />
         </Fade>
 
-        
-     {/*
-      <GlobalCompetitions />
+        <Fade bottom>
+          <GlobalCompetitions />
+        </Fade>
+
+        {/*
       <Clubs />
       <CommunityWork />
       <Footer /> */}

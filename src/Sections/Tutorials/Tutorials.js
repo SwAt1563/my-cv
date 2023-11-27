@@ -88,7 +88,8 @@ const Tutorials = () => {
     <>
       <div className="tutorials pt-5 pb-3">
         <h1 className="text-center mb-3">Tutorials</h1>
-        <Container>
+        
+        <Container className="contents">
           <Slider {...settings}>
             {courses.map((course, index) => (
               <div key={index}>
@@ -119,7 +120,7 @@ const Tutorials = () => {
             ))}
           </Slider>
         </Container>
-      </div>
+        </div>
     </>
   );
 };

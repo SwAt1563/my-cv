@@ -1,5 +1,5 @@
 import "./Languages.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import ProgressBar from "progressbar.js";
 
 const Languages = () => {
@@ -11,55 +11,65 @@ const Languages = () => {
     { name: "Turkish", level: "A1", percentage: 20 },
   ];
 
+  const componentRef = useRef(null);
+
   useEffect(() => {
-    // Loop through each language and create a progress bar
-    languages.forEach((language) => {
-      const circle = document.getElementById(
-        `${language.name.toLowerCase()}-circle`
-      );
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Component is in view, start animation
+            languages.forEach((language) => {
+              const circle = document.getElementById(
+                `${language.name.toLowerCase()}-circle`
+              );
 
-      const circleStyles = {
-        width: "100px",
-        height: "100px",
-        position: "relative", // Add position relative for absolute positioning of text
-      };
+              const circleStyles = {
+                width: "100px",
+                height: "100px",
+                position: "relative",
+              };
 
-      Object.assign(circle.style, circleStyles);
+              Object.assign(circle.style, circleStyles);
 
-      const bar = new ProgressBar.Circle(circle, {
-        strokeWidth: 6,
-        easing: "easeInOut",
-        duration: 1400,
-        color: "var(--color-hightlight)",
-        trailColor: "var(--color-text-secondary)",
-        trailWidth: 6,
-        svgStyle: null,
-        text: {
-          autoStyleContainer: false,
-        },
-      });
+              const bar = new ProgressBar.Circle(circle, {
+                strokeWidth: 6,
+                easing: "easeInOut",
+                duration: 1400,
+                color: "var(--color-hightlight)",
+                trailColor: "var(--color-text-secondary)",
+                trailWidth: 6,
+                svgStyle: null,
+                text: {
+                  autoStyleContainer: false,
+                },
+              });
 
-      bar.setText(`${language.level}`); // Set the text inside the circle
+              bar.setText(`${language.level}`);
+              bar.animate(language.percentage / 100);
+            });
 
-      bar.animate(language.percentage / 100);
-    });
+            // Stop observing once the animation is triggered
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 } // You can adjust the threshold based on your needs
+    );
+
+    if (componentRef.current) {
+      observer.observe(componentRef.current);
+    }
 
     // Cleanup function
     return () => {
-      languages.forEach((language) => {
-        const circle = document.getElementById(
-          `${language.name.toLowerCase()}-circle`
-        );
-        if (circle) {
-          circle.innerHTML = ""; // Clear the container when the component is unmounted
-        }
-      });
+      observer.disconnect();
     };
-  }, []); // Empty dependency array ensures this effect runs once when the component mounts
+  }, [languages]);
 
   return (
     <>
-      <div className="languages pt-3">
+      <div className="languages pt-3" ref={componentRef}>
         <div className="container text-center">
           <h1 className="mb-3">Languages</h1>
           <div className="row ">
