@@ -1,3 +1,17 @@
 .tutorials {
   background-color: var(--color-bg-secondary);
 }
+
+.tutorials .card img {
+  height: 400px;
+}
+
+.tutorials .watch-btn {
+  background-color: var(--color-bg);
+  border: 0;
+}
+
+.tutorials .watch-btn:hover {
+  background-color: var(--color-hightlight);
+  border: 0;
+}
