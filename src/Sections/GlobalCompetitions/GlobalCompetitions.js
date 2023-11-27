@@ -63,7 +63,7 @@ const GlobalCompetitions = () => {
             target="_blank"
             className="visit-btn"
           >
-            <h5>Visit Profile</h5>
+            <h5 className="m-0 p-1">Visit Profile</h5>
           </Button>
         </Card.Body>
       </Card>
