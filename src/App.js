@@ -97,10 +97,15 @@ const App = () => {
         <Fade bottom>
           <Clubs />
         </Fade>
+        <Fade bottom>
+          <CommunityWork />
+        </Fade>
 
-        {/*
-      <CommunityWork />
-      <Footer /> */}
+        <Fade bottom>
+        <Footer /> 
+        </Fade>
+
+        
       </Router>
     </>
   );

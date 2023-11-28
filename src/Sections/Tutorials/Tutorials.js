@@ -57,8 +57,8 @@ const Tutorials = () => {
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    pauseOnHover: true,
-    focusOnSelect: true,
+    pauseOnHover: false,
+    focusOnSelect: false,
     centerMode: false,
 
     slidesToShow: 2,

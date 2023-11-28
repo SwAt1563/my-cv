@@ -1,6 +1,6 @@
 import "./GlobalCompetitions.css";
 
-// https://cloudinary.com/blog/add-a-responsive-image-carousel-to-your-react-app
+// https://www.npmjs.com/package/react-responsive-carousel?activeTab=readme
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -24,6 +24,8 @@ const GlobalCompetitions = () => {
     autoPlay: true,
     infiniteLoop: true,
     emulateTouch: true,
+    stopOnHover: false,
+    
 
     showThumbs: false,
     showStatus: false,

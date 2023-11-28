@@ -1,3 +1,26 @@
 .clubs {
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
+}
+
+.clubs .card {
+  background-color: transparent;
+  color: var(--color-text);
+}
+
+.clubs .card .year {
+  color: var(--color-hightlight);
+  transition: 0.5s ease-in-out;
+}
+
+.clubs .card a {
+  color: var(--color-text);
+  transition: 0.5s ease-in-out;
+}
+
+.clubs .card:hover a {
+  color: var(--color-hightlight);
+}
+
+.clubs .card:hover .year {
+  color: var(--color-text);
 }

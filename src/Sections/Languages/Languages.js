@@ -45,7 +45,7 @@ const Languages = () => {
                 },
               });
 
-              bar.setText(`${language.level}`);
+              bar.setText(`<h5>${language.level}</h5>`);
               bar.animate(language.percentage / 100);
             });
 
@@ -82,7 +82,7 @@ const Languages = () => {
                   id={`${language.name.toLowerCase()}-circle`}
                   className="language-circle"
                 ></div>
-                <h5 className="language-name">{language.name}</h5>
+                <h4 className="language-name">{language.name}</h4>
               </div>
             ))}
           </div>

@@ -39,7 +39,7 @@ const Header = () => {
             duration={100} // Adjust the duration of the scroll
           >
             <h3 className="name">QUTAIBA OLAYYAN</h3>
-            <h6 className="field">Software Engineering</h6>
+            <h6 className="field">Computer Engineering</h6>
           </ScrollLink>
         </nav>
       </header>

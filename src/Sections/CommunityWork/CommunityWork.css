@@ -1,0 +1,41 @@
+.community-work {
+  background-color: var(--color-bg-secondary);
+}
+
+.community-work .model-icon {
+  width: 25px;
+  height: 25px;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.community-work .model-icon:hover {
+  color: var(--color-hightlight);
+}
+
+.community-work .custom-card {
+  text-align: center;
+
+  font-weight: var(--font-weight-bold);
+  font-size: 20px;
+}
+
+.community-work .custom-card .label {
+  float: left;
+  width: 75%;
+  color: var(--color-text-secondary);
+}
+.community-work .custom-card .hours {
+  width: 25%;
+  float: right;
+  background-color: var(--color-hightlight);
+  color: var(--color-text);
+}
+
+.community-work .custom-card:hover .hours {
+  color: var(--color-text-secondary);
+}
+
+.community-work .custom-card:hover .label {
+    color: var(--color-text);
+  }

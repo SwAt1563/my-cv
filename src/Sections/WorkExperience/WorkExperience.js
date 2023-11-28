@@ -5,7 +5,7 @@ const WorkExperience = () => {
     {
       title: "Backend Developer Internship at EXALT",
       year: "2022",
-      duration: "3 Month",
+      duration: "2 Month",
       content: `During my tenure in a developer internship at <a href="https://exalt-tech.com/" target="_blank">EXALT</a>, I garnered substantial experience in a diverse array of technologies and development methodologies, encompassing HTML, CSS, Django, Celery, Redis, payment-gateway, Docker, Pytest, JS, Django Rest Framework, Heroku, AWS and Github. I worked on several projects such as online shop, social network, recruitment website, and mobile shop which helped me to improve my testing skills, deepen my understanding of web development, familiarize myself with the Django Rest Framework and develop my collaboration and teamwork skills. Additionally, I have gained experience in containerization and hosting using Docker and AWS, which helped me to improve my skills in deployment and scaling web applications.`,
     },
     {

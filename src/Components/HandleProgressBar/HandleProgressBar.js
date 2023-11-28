@@ -43,7 +43,7 @@ const HandleProgressBar = ({ value }) => {
   const fillerStyles = {
     height: "100%",
     width: `${width}%`,
-    backgroundColor: "var(--color-text-secondary)",
+    backgroundColor: "var(--color-hightlight)",
     borderRadius: "inherit",
     textAlign: "right",
     transition: "width 1.0s ease",
