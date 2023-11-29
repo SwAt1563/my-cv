@@ -4,20 +4,21 @@ import "./GlobalCompetitions.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import IeeeImgSrc from "../../Assets/GlobalCompetitions/IEEE.jpg";
-import HashCodeImgSrc from "../../Assets/GlobalCompetitions/HashCode.png";
+
+
+
 import { Container } from "react-bootstrap";
 
-import { SiLeetcode, SiCodeforces } from "react-icons/si";
-import { FaHackerrank } from "react-icons/fa";
+
 
 import { Row, Col, Card, Button } from "react-bootstrap";
 
+import { Section } from "../../Components/index";
+
+import { competitions, profiles } from "../../Data/GlobalCompetitions";
+
 const GlobalCompetitions = () => {
-  const competitions = [
-    { title: "IEEE 2021", imgSrc: IeeeImgSrc },
-    { title: "HashCode 2021", imgSrc: HashCodeImgSrc },
-  ];
+
 
   const settings = {
     useKeyboardArrows: true,
@@ -25,7 +26,6 @@ const GlobalCompetitions = () => {
     infiniteLoop: true,
     emulateTouch: true,
     stopOnHover: false,
-    
 
     showThumbs: false,
     showStatus: false,
@@ -33,23 +33,7 @@ const GlobalCompetitions = () => {
     interval: 3000,
   };
 
-  const profiles = [
-    {
-      icon: <SiCodeforces className="card-icon" size={100} />,
-      title: "Codeforces",
-      link: "https://codeforces.com/profile/SwAt1563",
-    },
-    {
-      icon: <FaHackerrank className="card-icon" size={100} />,
-      title: "HackerRank",
-      link: "https://www.hackerrank.com/profile/SwAt1563",
-    },
-    {
-      icon: <SiLeetcode className="card-icon" size={100} />,
-      title: "LeetCode",
-      link: "https://leetcode.com/user6154XF/",
-    },
-  ];
+  
 
   const ProfileCard = ({ icon, title, link }) => (
     <Col xs={12} sm={12} md={6} lg={4} className=" text-center mb-4 ">
@@ -74,9 +58,7 @@ const GlobalCompetitions = () => {
 
   return (
     <>
-      <div className="global-competitions pt-5 pb-5">
-        <h1 className="text-center mb-5">Global Competitions</h1>
-
+      <Section id="global-competitions" title="Global Competitions">
         <Container className="box">
           <Carousel {...settings}>
             {competitions.map((competition, index) => (
@@ -100,7 +82,7 @@ const GlobalCompetitions = () => {
             ))}
           </Row>
         </Container>
-      </div>
+      </Section>
     </>
   );
 };

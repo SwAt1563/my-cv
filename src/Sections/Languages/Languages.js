@@ -1,15 +1,12 @@
 import "./Languages.css";
 import React, { useEffect, useRef } from "react";
 import ProgressBar from "progressbar.js";
+import { Section } from "../../Components/index";
+
+import { languages } from "../../Data/Languages";
 
 const Languages = () => {
-  // Languages data
-  const languages = [
-    { name: "Arabic", level: "Native", percentage: 90 },
-    { name: "English", level: "B1", percentage: 65 },
-    { name: "Hebrew", level: "A1", percentage: 15 },
-    { name: "Turkish", level: "A1", percentage: 20 },
-  ];
+ 
 
   const componentRef = useRef(null);
 
@@ -35,7 +32,7 @@ const Languages = () => {
               const bar = new ProgressBar.Circle(circle, {
                 strokeWidth: 6,
                 easing: "easeInOut",
-                duration: 3000,
+                duration: 2000,
                 color: "var(--color-hightlight)",
                 trailColor: "var(--color-text-secondary)",
                 trailWidth: 6,
@@ -69,9 +66,8 @@ const Languages = () => {
 
   return (
     <>
-      <div className="languages pt-3" ref={componentRef}>
-        <div className="container text-center">
-          <h1 className="mb-3">Languages</h1>
+      <Section id="languages" title="Languages" >
+        <div className="container text-center" ref={componentRef}>
           <div className="row ">
             {languages.map((language) => (
               <div
@@ -87,7 +83,7 @@ const Languages = () => {
             ))}
           </div>
         </div>
-      </div>
+      </Section>
     </>
   );
 };

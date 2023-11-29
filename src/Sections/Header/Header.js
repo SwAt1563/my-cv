@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="header">
+      <header id="header" className="header">
         <nav ref={navbarRef} className="navbar navbar-dark">
           <ScrollLink
             className="navbar-brand"
@@ -36,7 +36,7 @@ const Header = () => {
             spy={true}
             smooth={true}
             offset={-30} // Adjust the offset as needed
-            duration={100} // Adjust the duration of the scroll
+            duration={300} // Adjust the duration of the scroll
           >
             <h3 className="name">QUTAIBA OLAYYAN</h3>
             <h6 className="field">Computer Engineering</h6>

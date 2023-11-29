@@ -1,6 +1,5 @@
-
- a,
- a:hover {
+a,
+a:hover {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
@@ -28,7 +27,13 @@
   background-color: var(--color-gray-bg2);
 }
 
-
+.model .more-info .btn {
+  background-color: var(--color-text-secondary);
+  border: 0;
+}
+.model .more-info .btn:hover {
+  background-color: var(--color-hightlight);
+}
 
 .postcard a {
   color: inherit;
@@ -54,10 +59,7 @@
   width: 100%;
   object-fit: cover;
   position: relative;
-}
-
-.postcard .postcard__img_link {
-  display: contents;
+  cursor: pointer;
 }
 
 .postcard .postcard__bar {
@@ -107,8 +109,6 @@
   background: var(--color-hightlight);
 }
 
-
-
 .postcard:hover .postcard__bar {
   width: 100px;
 }
@@ -131,8 +131,6 @@
     max-height: 100%;
     transition: transform 0.3s ease;
   }
-
-
 
   .postcard:hover .postcard__img {
     transform: scale(1.1);

@@ -3,7 +3,7 @@ import ProgressBar from "react-bootstrap/ProgressBar";
 import { useState, useEffect, useRef } from "react";
 
 const HandleProgressBar = ({ value }) => {
-  const [width, setWidth] = useState(20); // its better to set the initial value to 0
+  const [width, setWidth] = useState(0); // its better to set the initial value to 0
   const containerRef = useRef(null);
 
   useEffect(() => {

@@ -1,0 +1,18 @@
+export const communityWorkData = [
+    { label: "University ambassadors", hours: 30 },
+    { label: "Social initiative", hours: 20 },
+    { label: "Debate station", hours: 20 },
+    { label: "Receiving new students", hours: 110 },
+    { label: "Guidance meeting", hours: 20 },
+    { label: "Musafer Yatta", hours: 25 },
+    { label: "Planting trees", hours: 30 },
+    { label: "Martyrs' Park", hours: 15 },
+    { label: "Dressing committee", hours: 100 },
+    { label: "Coordinate recruitment day logistics", hours: 20 },
+    { label: "Judging Olympiad competition", hours: 100 },
+    { label: "Critical market 2023", hours: 30 },
+    { label: "Pink October marathon", hours: 25 },
+    { label: "Marathon children", hours: 35 },
+    { label: "Cataloging and arranging books", hours: 35 },
+    { label: "Cleaning a heritage place", hours: 20 },
+  ];

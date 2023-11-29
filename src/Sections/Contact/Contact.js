@@ -2,11 +2,15 @@ import "./Contact.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
+
+
+
+
 const Contact = () => {
   return (
     <>
-      <div className="contact">
-        <Container className="mt-5 p-3">
+      <div id="contact" className="contact pt-3 pb-3">
+        <Container>
           <Row>
             {/* Address Column */}
             <Col md={4}>

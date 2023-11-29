@@ -1,58 +1,14 @@
 import "./Services.css";
-import {
-  FaCode,
-  FaCloud,
-  FaPaintBrush,
-  FaYoutube,
-  FaChalkboardTeacher,
-  FaBrain,
-} from "react-icons/fa";
+
+import { Section } from "../../Components/index";
+
+import { servicesData } from "../../Data/Services";
 
 const Services = () => {
-  const servicesData = [
-    {
-      title: "Web Development",
-      icon: <FaCode className="icon" />,
-      description:
-        "Craft responsive websites with dynamic features for optimal user experiences.",
-    },
-    {
-      title: "Artificial Intelligence",
-      icon: <FaBrain className="icon" />,
-      description:
-        "Implement AI solutions for automation and intelligent data analysis.",
-    },
-    {
-      title: "Cloud Computing",
-      icon: <FaCloud className="icon" />,
-      description:
-        "Optimize efficiency with scalable and secure cloud-based infrastructure solutions.",
-    },
-    {
-      title: "Graphic Design",
-      icon: <FaPaintBrush className="icon" />,
-      description:
-        "Create visually compelling designs for effective communication and brand representation.",
-    },
-    {
-      title: "Youtuber",
-      icon: <FaYoutube className="icon" />,
-      description:
-        "Creating unique videos for variant topics for Computer Engineering.",
-    },
-    {
-      title: "Mentor",
-      icon: <FaChalkboardTeacher className="icon" />,
-      description:
-        "Building a community of skilled full-stack engineers through personalized mentorship for over 30 students.",
-    },
-  ];
-
   return (
     <>
-      <div className="services">
+      <Section id="services" title="Services">
         <div className="container">
-          <h1 className="text-center pt-3">My Services</h1>
           <div className="row mt-2">
             {servicesData.map((service, index) => (
               <div
@@ -68,7 +24,7 @@ const Services = () => {
             ))}
           </div>
         </div>
-      </div>
+      </Section>
     </>
   );
 };

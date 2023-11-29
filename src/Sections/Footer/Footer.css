@@ -1,9 +1,13 @@
-.footer{
-    background-color: var(--color-bg);
+.footer {
+  background-color: var(--color-bg);
+}
+.footer .question {
+  color: var(--color-hightlight);
 }
 .footer .purchase-btn {
   background-color: var(--color-text-secondary);
   border: 0;
+  transition: all 0.1s ease-in-out;
 }
 
 .footer .purchase-btn:hover {
@@ -11,4 +15,12 @@
 
   color: var(--color-text);
   font-weight: var(--font-weight-bold);
+}
+
+.footer .price {
+  color: var(--color-hightlight);
+  transition: all 0.5s ease-in-out;
+}
+.footer .purchase-btn:hover .price {
+  color: var(--color-text-secondary);
 }

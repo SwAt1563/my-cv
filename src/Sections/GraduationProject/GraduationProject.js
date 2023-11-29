@@ -1,11 +1,12 @@
 import "./GraduationProject.css";
 import ReactLoading from "react-loading";
 
+import { Section } from "../../Components/index";
+
 const GraduationProject = () => {
   return (
     <>
-      <div className="graduation-project pt-5">
-        <h1 className="text-center">Graduation Project</h1>
+      <Section id="graduation-project" title="Graduation Project">
         <div className="loading-container">
           <ReactLoading
             type={"bars"}
@@ -16,7 +17,7 @@ const GraduationProject = () => {
             delay={1000}
           />
         </div>
-      </div>
+      </Section>
     </>
   );
 };

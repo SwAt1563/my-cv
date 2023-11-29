@@ -1,32 +1,16 @@
 import "./GraphicSkills.css";
 import { Card, Container, Row, Col } from "react-bootstrap";
 
-import photoshopIcon from "../../Assets/GraphicSkills/photoshop.svg";
-import illustratorIcon from "../../Assets/GraphicSkills/illustrator.svg";
-import premiereproIcon from "../../Assets/GraphicSkills/premierepro.svg";
+
+
+import { Section } from "../../Components/index";
+import { skills } from "../../Data/GraphicSkills";
 
 const GraphicSkills = () => {
-  const skills = [
-    {
-      title: "Adobe Photoshop",
-      icon: <img src={photoshopIcon} alt="Photoshop" className="icon" />,
-      percent: 40,
-    },
-    {
-      title: "Adobe Illustrator",
-      icon: <img src={illustratorIcon} alt="Illustrator" className="icon" />,
-      percent: 70,
-    },
-    {
-      title: "Adobe Premiere Pro",
-      icon: <img src={premiereproIcon} alt="Premiere Pro" className="icon" />,
-      percent: 25,
-    },
-  ];
+ 
   return (
     <>
-      <div className="graphic-skills pt-5 pb-5">
-        <h1 className=" text-center">Graphic Skills</h1>
+      <Section id="graphic-skills" title="Graphic Skills">
         <Container>
           <Row>
             {skills.map((skill, index) => (
@@ -52,7 +36,7 @@ const GraphicSkills = () => {
             ))}
           </Row>
         </Container>
-      </div>
+      </Section>
     </>
   );
 };

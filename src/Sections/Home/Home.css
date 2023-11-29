@@ -1,12 +1,12 @@
 /* Add your styling for the hero section */
 
-body {
+/* body {
   background-color: var(--color-bg-body);
   color: var(--color-text);
-}
+} */
 
-#hero {
-  position: relative;
-  height: 100vh;
-}
 
+
+.hero .content .name {
+  color: var(--color-hightlight);
+}

@@ -8,7 +8,7 @@ import { TypeAnimation } from "react-type-animation";
 const Home = () => {
   return (
     <>
-      <div id="hero">
+      <div id="hero" className="hero">
         {/* Background Particles */}
         <div
           className="background-particle w-100 position-absolute top-0 left-0"
@@ -24,10 +24,12 @@ const Home = () => {
 
               <Morph imgSrc={myImg} />
             </div>
-            <div className="col-md-6 d-flex align-items-center text-md-start text-sm-center">
+            <div className="col-md-6 d-flex align-items-center  text-center text-md-start">
               {/* Content */}
               <div className="content ">
-                <h1>Hi, I’m Qutaiba Olayyan</h1>
+                <h1>
+                  Hi, I'm <span className="name">Qutaiba Olayyan</span>
+                </h1>
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially

@@ -3,6 +3,10 @@
   position: relative;
 }
 
+
+.timeline:hover .timeline-content .title{
+    color: var(--color-hightlight);
+  }
 .timeline a{
     text-decoration: none;
     color: var(--color-hightlight);

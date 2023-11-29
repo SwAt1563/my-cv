@@ -7,7 +7,7 @@ const EducationItem = ({ year, title, description }) => {
       <div className="education-item ">
         <YearDesign year={year} />
         <div className="education-details">
-          <h4>{title}</h4>
+          <h4 className="title">{title}</h4>
           <p>{description}</p>
         </div>
       </div>

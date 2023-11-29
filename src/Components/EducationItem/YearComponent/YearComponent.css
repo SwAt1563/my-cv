@@ -1,6 +1,7 @@
 .year-design {
   color: var(--color-text);
   font-weight: var(--font-weight-normal);
+
   position: absolute;
   top: 20%;
   left: -190px;
@@ -23,7 +24,7 @@
     top: -50px; /* Adjust as needed to position above */
     left: 0; /* Center horizontally */
     padding: 5px 10px;
-    
+
     border: 1px solid var(--color-text-secondary); /* Border color of the rectangle */
     border-left: 4px solid var(--color-hightlight); /* Remove right border to connect with education-item */
   }

@@ -1,10 +1,11 @@
 import React from "react";
-import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+import { BrowserRouter as Router } from "react-router-dom";
 
 import {
   Header,
@@ -36,7 +37,7 @@ const App = () => {
   return (
     <>
       <Router basename="/my-cv">
-        {/* <Cursor /> */}
+        <Cursor />
 
         <Header />
         <Home />
@@ -102,10 +103,8 @@ const App = () => {
         </Fade>
 
         <Fade bottom>
-        <Footer /> 
+          <Footer />
         </Fade>
-
-        
       </Router>
     </>
   );

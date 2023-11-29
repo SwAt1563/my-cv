@@ -1,32 +1,17 @@
 import "./AboutMe.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import {
-  faChalkboardTeacher,
-  faPuzzlePiece,
-} from "@fortawesome/free-solid-svg-icons";
 
 import { HandleProgressBar } from "../../Components/index";
 
+import { AnimatedCounter } from "../../Components/index";
+
+import { softSkills, metrics } from "../../Data/AboutMe";
+
 const AboutMe = () => {
-  // Soft Skills data
-  const softSkills = [
-    { skill: "Mentorship", percentage: 85 },
-    { skill: "Self-Motivation", percentage: 90 },
-    { skill: "Leadership", percentage: 70 },
-  ];
-
-  // Metrics data
-  const metrics = [
-    { label: "YouTube Views", value: "82k+", icon: faYoutube },
-    { label: "Face-to-Face Lectures", value: "11+", icon: faChalkboardTeacher },
-    { label: "Problem Solving", value: "224+", icon: faPuzzlePiece },
-  ];
-
   return (
     <>
-      <div className="aboutMe">
+      <section id="aboutMe" className="aboutMe">
         <div className="container">
           <div className="row">
             {/* About Me Column */}
@@ -79,13 +64,15 @@ const AboutMe = () => {
                     />
                   </div>
                   <h6 className="mt-1 label">{metric.label}</h6>
-                  <p className="">{metric.value}</p>
+                  <p className="">
+                    <AnimatedCounter value={metric.value} />+
+                  </p>
                 </div>
               ))}
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

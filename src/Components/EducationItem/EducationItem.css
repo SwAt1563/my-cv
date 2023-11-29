@@ -3,12 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
+.education-item:hover .education-details .title {
+  color: var(--color-hightlight);
 }
 
 @media (max-width: 576px) {
-    .education-item {
-        margin-top: 80px;
-      
-      }
+  .education-item {
+    margin-top: 80px;
   }
+}

@@ -1,6 +1,10 @@
 import "./HorizontalCard.css";
 import Zoom from "react-reveal/Fade";
-import { FaCalendarAlt, FaTag  } from "react-icons/fa";
+import { FaCalendarAlt, FaTag } from "react-icons/fa";
+
+import { Modal, Button } from "react-bootstrap";
+
+import { useState } from "react";
 
 // cards: https://codepen.io/3psy0n/pen/LYpajmX
 const HorizontalCard = ({
@@ -11,16 +15,42 @@ const HorizontalCard = ({
   skills,
   link,
 }) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
   return (
     <>
       <Zoom>
         <article className="postcard project">
-          <a className="postcard__img_link" target="_blank" href={link}>
-            <img className="postcard__img" src={imageSrc} alt={title} />
-          </a>
+          <img
+            className=" postcard__img"
+            src={imageSrc}
+            alt={title}
+            onClick={openModal}
+          />
+
+          <Modal show={showModal} onHide={closeModal} className="model">
+            <Modal.Header closeButton></Modal.Header>
+
+            <Modal.Body>
+              <img src={imageSrc} alt={title} style={{ width: "100%" }} />
+              <a href={link} target="_blank" rel="noreferrer">
+                <h4 className="more-info text-center mt-3">
+                  <Button className="btn w-25">Show</Button>
+                </h4>
+              </a>
+            </Modal.Body>
+          </Modal>
+
           <div className="postcard__text">
             <h1 className="postcard__title project">
-              <a href={link} target="_blank">
+              <a href={link} target="_blank" rel="noreferrer">
                 {title}
               </a>
             </h1>
@@ -38,7 +68,9 @@ const HorizontalCard = ({
             <ul className="postcard__tagbox">
               {skills.map((skill, index) => (
                 <li key={index} className="tag__item skill">
-                  <i className="me-2"><FaTag /></i>
+                  <i className="me-2">
+                    <FaTag />
+                  </i>
                   {skill}
                 </li>
               ))}
