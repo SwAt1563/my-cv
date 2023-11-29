@@ -1,55 +1,28 @@
 import "./Contact.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
-
-
-
-
+import { contactData } from "../../Data/Contact";
 const Contact = () => {
   return (
     <>
       <div id="contact" className="contact pt-3 pb-3">
         <Container>
           <Row>
-            {/* Address Column */}
-            <Col md={4}>
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FaMapMarkerAlt />
+            {contactData.map((contact, index) => (
+              <Col
+                md={4}
+                key={index}
+                className="col-item "
+              >
+                <div className="contact-item ">
+                  <div className="contact-icon">{contact.icon}</div>
+                  <div className="contact-info">
+                    <h5>{contact.title}</h5>
+                    <p>{contact.description}</p>
+                  </div>
                 </div>
-                <div className="contact-info">
-                  <h5>Address</h5>
-                  <p>Birzeit, Ramallah, Palestine</p>
-                </div>
-              </div>
-            </Col>
-
-            {/* Phone Column */}
-            <Col md={4}>
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FaPhone />
-                </div>
-                <div className="contact-info">
-                  <h5>Phone</h5>
-                  <p>+97268187266</p>
-                </div>
-              </div>
-            </Col>
-
-            {/* Email Column */}
-            <Col md={4}>
-              <div className="contact-item">
-                <div className="contact-icon">
-                  <FaEnvelope />
-                </div>
-                <div className="contact-info">
-                  <h5>Email</h5>
-                  <p>swat.ar123@gmail.com</p>
-                </div>
-              </div>
-            </Col>
+              </Col>
+            ))}
           </Row>
         </Container>
       </div>

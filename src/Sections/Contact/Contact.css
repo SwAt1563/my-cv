@@ -1,12 +1,22 @@
 .contact {
   background-color: var(--color-bg);
-  
+}
+
+.contact .col-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* New styles for small screens */
 @media (max-width: 768px) {
   .mt-5 {
     margin-top: 200px !important; /* !important is used to override Bootstrap's default margin */
+  }
+  .contact .col-item {
+    display: flex;
+    align-items: start;
+    justify-content: start;
   }
 }
 
