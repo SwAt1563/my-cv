@@ -12,7 +12,7 @@ export const communityWorkData = [
     { label: "Judging Olympiad competition", hours: 100 },
     { label: "Critical market 2023", hours: 30 },
     { label: "Pink October marathon", hours: 25 },
-    { label: "Marathon children", hours: 35 },
+    { label: "Children marathon", hours: 35 },
     { label: "Cataloging and arranging books", hours: 35 },
     { label: "Cleaning a heritage place", hours: 20 },
   ];

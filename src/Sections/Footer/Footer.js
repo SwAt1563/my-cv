@@ -22,7 +22,7 @@ const Footer = () => {
           {/* copy right */}
           <div className="copy-right mt-3">
             <p className="m-0 p-0">
-              © 2023 Qutaiba Olayyan. All rights reserved.
+              © 2024 Qutaiba Olayyan. All rights reserved.
             </p>
           </div>
         </div>
