@@ -1,5 +1,4 @@
 import "./HandleProgressBar.css";
-import ProgressBar from "react-bootstrap/ProgressBar";
 import { useState, useEffect, useRef } from "react";
 
 const HandleProgressBar = ({ value }) => {
@@ -27,6 +26,7 @@ const HandleProgressBar = ({ value }) => {
     // Cleanup function to disconnect the observer when the component unmounts
     return () => {
       if (containerRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(containerRef.current);
       }
     };

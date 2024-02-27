@@ -23,15 +23,15 @@ const AboutMe = () => {
                 learning. I excel in multitasking, prioritize effectively, and
                 have experience in both individual and team environments. My
                 expertise includes front-end and back-end development,
-                containerization, hosting, and machine learning. I've initiated
-                a successful full-stack boot camp to share my knowledge and
-                skills, and I take pride in orchestrating various activities,
-                such as trips and events, for large groups of individuals. On
-                the side, I run a YouTube channel where I share lectures and
-                tutorials on computer engineering topics, showcasing my
-                communication and teaching skills. Proficient in various design
-                and production applications, I create professional-quality
-                visual content.
+                containerization, hosting, and artificial intelligence. I've
+                initiated a successful full-stack boot camp to share my
+                knowledge and skills, and I take pride in orchestrating various
+                activities, such as trips and events, for large groups of
+                individuals. On the side, I run a YouTube channel where I share
+                lectures and tutorials on computer engineering topics,
+                showcasing my communication and teaching skills. Proficient in
+                various design and production applications, I create
+                professional-quality visual content.
               </p>
             </div>
 

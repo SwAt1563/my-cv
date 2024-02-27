@@ -35,7 +35,7 @@ const Home = () => {
                     // Same substring at the start will only be typed out once, initially
                     "Full Stack Developer",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "Machine Learning Developer",
+                    "Artificial Intelligence Engineer",
                     1000,
                     "Graphic Designer",
                     1000,

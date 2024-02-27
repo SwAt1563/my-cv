@@ -62,7 +62,7 @@ const Languages = () => {
     return () => {
       observer.disconnect();
     };
-  }, [languages]);
+  }, []);
 
   return (
     <>

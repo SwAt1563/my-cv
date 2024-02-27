@@ -1,8 +1,7 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
 import React, { useEffect, useRef } from "react";
 
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 const Header = () => {
   const navbarRef = useRef(null);
@@ -38,8 +37,8 @@ const Header = () => {
             offset={-30} // Adjust the offset as needed
             duration={300} // Adjust the duration of the scroll
           >
-            <h3 className="name">QUTAIBA OLAYYAN</h3>
-            <h6 className="field">Computer Engineer</h6>
+            <h2 className="name">QUTAIBA OLAYYAN</h2>
+            <h5 className="field">AI-specialized Computer Engineer</h5>
           </ScrollLink>
         </nav>
       </header>

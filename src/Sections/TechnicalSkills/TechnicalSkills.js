@@ -17,7 +17,7 @@ const TechnicalSkills = () => {
           <Row>
             {skills.map((skill, index) => (
               <Col lg={3} md={4} sm={6} key={index}>
-                <Card className="mt-2 ">
+                <Card className="mt-2 mb-3">
                   <Card.Body>
                     {skill.icon}
                     <Card.Title>

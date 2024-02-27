@@ -26,6 +26,7 @@ const AnimatedCounter = ({ value }) => {
     // Cleanup function to disconnect the observer when the component unmounts
     return () => {
       if (counterRef.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         observer.unobserve(counterRef.current);
       }
     };

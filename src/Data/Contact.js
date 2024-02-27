@@ -4,12 +4,12 @@ export const contactData = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "Birzeit, Ramallah, Palestine",
+    description: "Dir-Alguson, Tulkarm, Palestine",
   },
   {
     icon: <FaPhone />,
     title: "Phone",
-    description: "+97268187266",
+    description: "+972568187266",
   },
   {
     icon: <FaEnvelope />,

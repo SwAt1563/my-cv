@@ -1,5 +1,18 @@
 export const projects = [
   {
+    title:
+      "Arabic Handwritten Character Recognition (AHCR) using Convolutional Neural Networks (CNNs)",
+    description:
+      "This project delves into the complex domain of Arabic Handwritten Character Recognition (AHCR) through a structured exploration of Convolutional Neural Networks (CNNs), tailored to address the unique challenges posed by Arabic script's semi-cursive nature and variable character shapes. Students embark on a journey starting from constructing basic CNN models, understanding and applying loss functions and optimizers, to more advanced pursuits like enhancing generalization through data augmentation and leveraging pre-trained models for improved accuracy. By engaging in tasks ranging from designing custom CNN architectures to implementing transfer learning, participants gain invaluable hands-on experience, deepening their comprehension of deep learning applications in recognizing the intricacies of handwritten texts.",
+    url: "https://github.com/SwAt1563/achr-cnn",
+  },
+  {
+    title: "Content-Based Image Retrieval (CBIR) system",
+    description:
+      "This project focuses on developing a Content-Based Image Retrieval (CBIR) system, employing color histogram and color moment features to enhance image retrieval based on content. The objective includes constructing the CBIR framework, experimenting with the effectiveness of color features for image representation, and evaluating the system's performance using metrics like precision, recall, and F1 score on a benchmark image dataset. The project is structured into four main tasks: building the system, experimenting with color histograms and moments, evaluating performance, and improving the system with other image representation techniques. A comprehensive evaluation will analyze the system's accuracy and efficiency in retrieving relevant images, leading to a detailed report that summarizes the development process, experimental results, and insights on the color features' effectiveness. This streamlined approach aims to advance the CBIR field by optimizing image retrieval through sophisticated color feature analysis.",
+    url: "https://github.com/SwAt1563/cbir",
+  },
+  {
     title: "Detection of Cows in Images",
     description:
       "The system utilizes image processing techniques for the purpose of analyzing and categorizing images. Its training is based on a dataset consisting of labeled images encompassing various classes, namely cows, water, sky, and grass. Furthermore, the system incorporates a visualization feature designed to present detection results, such as the ability to apply specific coloration to the identified cows within the image.",

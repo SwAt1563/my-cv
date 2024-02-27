@@ -1,7 +1,42 @@
 import SocialLibraryImage from "../Assets/WebProjects/SocialLibrary.png";
 import ITHubImage from "../Assets/WebProjects/ITHub.png";
+import BlogsImage from "../Assets/WebProjects/Blogs.png";
 
 export const projectsData = [
+  {
+    imageSrc: BlogsImage,
+    title: "Blogs",
+    date: "Feb 26th 2024",
+    description:
+      "The Blogs App is a dynamic and sophisticated web platform engineered with Next.js, offering seamless frontend and backend integration. It leverages the power of GraphQL for efficient data handling and Auth0 for secure authentication, ensuring a robust user experience. With PostgreSQL and Prisma ORM at its core, it achieves optimal data management and query performance. The project incorporates Apollo Client for advanced caching mechanisms, ensuring swift content delivery. Bootstrap's responsive design, combined with AWS S3 for image storage and Zod for rigorous data validation, encapsulates an all-in-one solution for blogging. This platform not only prioritizes performance optimization and security but also sets a new standard in the digital content-sharing space.",
+    skills: [
+      "ReactJS",
+      "Nextjs 14",
+      "GraphQL",
+      "Apollo-Server",
+      "Apollo-Client",
+      "Apollo-Client-Caching",
+      "Apollo-Codegen",
+      "Auth0",
+      "PostgreSQL",
+      "Prisma-ORM",
+      "Bootstrap",
+      "AWS-S3",
+      "Zod",
+      "Optimization",
+      "Security",
+    ],
+    link: "https://github.com/SwAt1563/nextjs-blogs",
+  },
+  {
+    imageSrc: ITHubImage,
+    title: "IT Hub",
+    date: "Apr 23th 2023",
+    description:
+      "In the creation of this ReactJS-powered website for IT students, I've introduced an array of services to cater to their diverse needs. Utilizing Firebase as a serverless service ensures seamless interaction with servers, and the platform boasts a central hub for event news uploads. Three key services include aiding students in securing full university rooms, facilitating group formation for final graduation projects, and providing a platform for students to sell items like books. The website now extends its offerings to include a top-notch service that provides exclusive offers from various shops, enhancing the overall experience for students by integrating valuable discounts and promotions into the IT community hub.",
+    skills: ["ReactJS", "Bootsrap", "Firebase"],
+    link: "https://github.com/SwAt1563/it-bzu",
+  },
   {
     imageSrc: SocialLibraryImage,
     title: "Social Library",
@@ -25,14 +60,5 @@ export const projectsData = [
       "Nginx",
     ],
     link: "https://github.com/SwAt1563/django-backend-social-library",
-  },
-  {
-    imageSrc: ITHubImage,
-    title: "IT Hub",
-    date: "Apr 23th 2023",
-    description:
-      "In the creation of this ReactJS-powered website for IT students, I've introduced an array of services to cater to their diverse needs. Utilizing Firebase as a serverless service ensures seamless interaction with servers, and the platform boasts a central hub for event news uploads. Three key services include aiding students in securing full university rooms, facilitating group formation for final graduation projects, and providing a platform for students to sell items like books. The website now extends its offerings to include a top-notch service that provides exclusive offers from various shops, enhancing the overall experience for students by integrating valuable discounts and promotions into the IT community hub.",
-    skills: ["ReactJS", "Bootsrap", "Firebase"],
-    link: "https://swat1563.github.io/it-bzu",
   },
 ];
