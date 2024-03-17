@@ -12,6 +12,12 @@ export const timelinesData = [
     content: `Engaging with the Microsoft Mentoring Program, I had the opportunity to work closely with a <a href="https://www.linkedin.com/in/benedict-berger-msft/" target="_blank">mentor</a>, gaining insights into effective teamwork, selecting team members for specialized projects, and initiating projects with a specific focus. The mentorship significantly contributed to my professional development, providing practical knowledge for future endeavors. Additionally, I completed Microsoft Learn modules on Azure fundamentals and AI, including the 'Career Essentials in Generative AI' program, a collaborative effort by Microsoft and LinkedIn. This training equipped me with practical knowledge in Azure and AI, ready to be applied in real-world projects.`,
   },
   {
+    title: "Graphic Designer",
+    year: "2020",
+    duration: "2 Year",
+    content: `With a rich tapestry of experience woven through the realms of Adobe Photoshop and Illustrator, my journey in graphic design has been both profound and transformative. Mastering Photoshop has enabled me to meticulously edit images, ensuring they harmonize perfectly with the aesthetic and functional needs of my diverse range of products. This expertise allows me to not only enhance visual appeal but also to tailor visuals that speak the language of my brand's identity. Meanwhile, Illustrator has been my canvas for creativity, where my concepts come to life in the form of logos, icons, advertisements, covers, brands, pipelines, and proposals. This powerful combination of tools has equipped me with the versatility and skill to navigate the vast seas of graphic design, making me adept at translating ideas into visual realities that captivate and communicate effectively.`,
+  },
+  {
     title: "Student Teacher",
     year: "2019",
     duration: "4 Years",
