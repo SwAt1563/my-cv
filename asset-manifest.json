@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-cv/static/css/main.935d0068.css",
-    "main.js": "/my-cv/static/js/main.c5185548.js",
+    "main.js": "/my-cv/static/js/main.e6d6bac0.js",
     "static/media/Trip.JPG": "/my-cv/static/media/Trip.5f5e276d80183229f5f4.JPG",
     "static/media/IC.png": "/my-cv/static/media/IC.fac2e9e62c11931e15ea.png",
     "static/media/HashCode.png": "/my-cv/static/media/HashCode.94dd5b69b429cbb80960.png",
@@ -49,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.935d0068.css",
-    "static/js/main.c5185548.js"
+    "static/js/main.e6d6bac0.js"
   ]
 }
