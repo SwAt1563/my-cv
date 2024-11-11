@@ -1,8 +1,32 @@
 import SocialLibraryImage from "../Assets/WebProjects/SocialLibrary.png";
 import ITHubImage from "../Assets/WebProjects/ITHub.png";
 import BlogsImage from "../Assets/WebProjects/Blogs.png";
+import eSCPRSImage from "../Assets/WebProjects/eSCPRS.png";
 
+/*
+docker mongodb docker-compose reactjs websocket chatbot kaggle ipynb powerbi mongodb-express fastapi beanie llm ollama llama3 gimini llama3-1
+*/
 export const projectsData = [
+  {
+    imageSrc: eSCPRSImage,
+    title: "eSCPRS",
+    date: "Nov 10th 2024",
+    description:
+      "The eSCPRS project aims to create a chatbot that interacts with a database to process large-scale procurement data from the State of California. I developed a FastAPI backend to handle data queries from a MongoDB database, built a ReactJS frontend for user interaction, and integrated Gemma2 LLM via Ollama for natural language processing. The system allows users to query procurement data through a chatbot interface, providing insights in a conversational manner. The entire project was containerized using Docker for portability and seamless operation across environments.",
+    skills: [
+      "Docker",
+      "MongoDB",
+      "Docker-Compose",
+      "ReactJS",
+      "FastAPI",
+      "LLM",
+      "Ollama",
+      "Gemma2",
+      "Llama3-1",
+      "Power BI"
+    ],
+    link: "https://github.com/SwAt1563/eSCPRS",
+  },
   {
     imageSrc: BlogsImage,
     title: "Blogs",

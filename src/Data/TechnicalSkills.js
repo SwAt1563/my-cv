@@ -8,24 +8,26 @@ import azureIcon from "../Assets/TechnicalSkills/azure.svg";
 import pythonIcon from "../Assets/TechnicalSkills/python.svg";
 import djangoIcon from "../Assets/TechnicalSkills/django.svg";
 import pytestIcon from "../Assets/TechnicalSkills/pytest.svg";
-import bootstrapIcon from "../Assets/TechnicalSkills/bootstrap.svg";
+
 import reactIcon from "../Assets/TechnicalSkills/react.svg";
 import nextjsIcon from "../Assets/TechnicalSkills/nextjs.svg";
 import apolloIcon from "../Assets/TechnicalSkills/apollo.svg";
 import prismaIcon from "../Assets/TechnicalSkills/prisma.svg";
 
+import aiIcon from "../Assets/TechnicalSkills/ai.svg";
+
 export const skills = [
   {
     title: "Python",
     icon: <img src={pythonIcon} alt="Python" className="icon" />,
-    percent: 85,
+    percent: 90,
     description:
       "Proficient in Python programming, enabling versatile and efficient application development.",
   },
   {
     title: "Django",
     icon: <img src={djangoIcon} alt="Django" className="icon" />,
-    percent: 65,
+    percent: 85,
     description:
       "Expertise in Django framework for building robust and scalable web applications.",
   },
@@ -37,11 +39,11 @@ export const skills = [
       "Proficiency in Pytest for unit testing includes crafting tests, using fixtures and markers, understanding assertion rewriting for clarity.",
   },
   {
-    title: "Bootstrap",
-    icon: <img src={bootstrapIcon} alt="Bootstrap" className="icon" />,
-    percent: 80,
+    title: "AI",
+    icon: <img src={aiIcon} alt="AI" className="icon" />,
+    percent: 95,
     description:
-      "Utilize Bootstrap for responsive and visually appealing design, ensuring a seamless user experience.",
+      "Experience in artificial intelligence includes LLM, machine learning, deep learning, and NLP for intelligent data analysis and automation.",
   },
   {
     title: "ReactJS",
@@ -53,7 +55,7 @@ export const skills = [
   {
     title: "Nextjs",
     icon: <img src={nextjsIcon} alt="Nextjs" className="icon" />,
-    percent: 65,
+    percent: 70,
     description:
       "Expertise in Next.js covers static site generation, server-side rendering, and performance optimization through efficient data fetching and asset management.",
   },
@@ -75,21 +77,21 @@ export const skills = [
   {
     title: "Docker",
     icon: <img src={dockerIcon} alt="Docker" className="icon" />,
-    percent: 30,
+    percent: 70,
     description:
       "Implement containerization with Docker for streamlined deployment and scalable application management.",
   },
   {
     title: "Rest API",
     icon: <FaCloud className="icon" />,
-    percent: 70,
+    percent: 95,
     description:
       "Develop and integrate RESTful APIs for efficient communication between web applications and services.",
   },
   {
     title: "AWS",
     icon: <FaAws className="icon" />,
-    percent: 30,
+    percent: 55,
     description:
       "Proficient in Amazon Web Services, leveraging cloud solutions for scalable and secure application architecture.",
   },

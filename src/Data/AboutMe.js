@@ -6,14 +6,14 @@ import {
 
 // Soft Skills data
 export const softSkills = [
-    { skill: "Mentorship", percentage: 85 },
-    { skill: "Self-Motivation", percentage: 90 },
-    { skill: "Leadership", percentage: 70 },
+    { skill: "Mentorship", percentage: 80 },
+    { skill: "Self-Motivation", percentage: 95 },
+    { skill: "Leadership", percentage: 90 },
   ];
 
   // Metrics data
   export const metrics = [
-    { label: "YouTube Views", value: 82000, icon: faYoutube },
-    { label: "Face-to-Face Lectures", value: 15, icon: faChalkboardTeacher },
-    { label: "Problem Solving", value: 224, icon: faPuzzlePiece },
+    { label: "YouTube Views", value: 83000, icon: faYoutube },
+    { label: "Face-to-Face Lectures", value: 18, icon: faChalkboardTeacher },
+    { label: "Problem Solving", value: 244, icon: faPuzzlePiece },
   ];

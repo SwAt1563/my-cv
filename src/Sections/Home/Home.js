@@ -33,9 +33,11 @@ const Home = () => {
                 <TypeAnimation
                   sequence={[
                     // Same substring at the start will only be typed out once, initially
-                    "Full Stack Developer",
-                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    "Team Lead",
+                    1000,
                     "Artificial Intelligence Engineer",
+                    1000, // wait 1s before replacing "Mice" with "Hamsters"
+                    "Full Stack Developer",
                     1000,
                     "Graphic Designer",
                     1000,
@@ -46,8 +48,8 @@ const Home = () => {
                   repeat={Infinity}
                 />
                 <p>
-                  I take great satisfaction in being a solution to your
-                  requirements.
+                  If you're looking for effective solutions to your AI
+                  challenges, I'm here to help!
                 </p>
                 {/* Social Icons */}
                 <SocialIcons />

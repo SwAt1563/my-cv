@@ -1,5 +1,11 @@
 export const timelinesData = [
   {
+    title: "Software Engineer & Team Lead at RHV",
+    year: "2024",
+    duration: "6 Months",
+    content: `As a Software Engineer and Team Lead at <a href="https://rhvco.io/" target="_blank">RHV</a>, As Scrum Master, I led a team of 7 and completed 16 one-week sprints using Agile methodology, overseeing features, integrations, and task management. I developed a chatbot system with RAG and FastAPI, created 300+ APIs, and implemented real-time chat and notifications with Django Channels and Redis. I set up Docker environments, integrated AWS services, and established CI/CD with GitHub Actions. I also developed scraping solutions, built database models with Django ORM, and designed authentication and user interaction systems. Additionally, I conducted backend testing with Pytest and worked with Twitter APIs for data retrieval.`,
+  },
+  {
     title: "Backend Developer Internship at EXALT",
     year: "2022",
     duration: "2 Month",

@@ -18,20 +18,14 @@ const AboutMe = () => {
             <div className="content col-md-6">
               <h2>About Me</h2>
               <p className="about-me-paragraph">
-                I am a dedicated computer engineering professional with a robust
-                technical background and an insatiable passion for continuous
-                learning. I excel in multitasking, prioritize effectively, and
-                have experience in both individual and team environments. My
-                expertise includes front-end and back-end development,
-                containerization, hosting, and artificial intelligence. I've
-                initiated a successful full-stack boot camp to share my
-                knowledge and skills, and I take pride in orchestrating various
-                activities, such as trips and events, for large groups of
-                individuals. On the side, I run a YouTube channel where I share
-                lectures and tutorials on computer engineering topics,
-                showcasing my communication and teaching skills. Proficient in
-                various design and production applications, I create
-                professional-quality visual content.
+                Software Engineer with 3 years of experience and a proven track
+                record as a Project Planner and Team Lead for a team of 7.
+                Specialized in artificial intelligence and Python, with over 5
+                years of experience, and expert in LLM, RAG, DRF, Celery, and
+                FastAPI. Proficient in containerizing services using Docker and
+                Docker Compose, and familiar with AWS services including EC2,
+                S3, SES, SM, and IAM. Knowledgeable in GitHub Actions for CI/CD
+                and experienced in unit testing with the pytest tool.
               </p>
             </div>
 
