@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/my-cv/static/css/main.935d0068.css",
-    "main.js": "/my-cv/static/js/main.e6d6bac0.js",
+    "main.js": "/my-cv/static/js/main.3ae89b30.js",
     "static/media/Trip.JPG": "/my-cv/static/media/Trip.5f5e276d80183229f5f4.JPG",
     "static/media/IC.png": "/my-cv/static/media/IC.fac2e9e62c11931e15ea.png",
     "static/media/HashCode.png": "/my-cv/static/media/HashCode.94dd5b69b429cbb80960.png",
     "static/media/Me.svg": "/my-cv/static/media/Me.e31a2e26af829d2336c51315bf62f46a.svg",
+    "static/media/eSCPRS.png": "/my-cv/static/media/eSCPRS.1f1ea2400513070b2d13.png",
     "static/media/Blogs.png": "/my-cv/static/media/Blogs.a70edde177dfd9233a7d.png",
     "static/media/fa-solid-900.ttf": "/my-cv/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/MicrosoftEvent.jpg": "/my-cv/static/media/MicrosoftEvent.6bc9ef8ee69b685d37cb.jpg",
     "static/media/SocialLibrary.png": "/my-cv/static/media/SocialLibrary.9d94b01ce9a143225603.png",
     "static/media/fa-brands-400.ttf": "/my-cv/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
     "static/media/CommunityWork.png": "/my-cv/static/media/CommunityWork.d4f6ecd34d5d589d6f8c.png",
@@ -26,6 +28,7 @@
     "static/media/revicons.eot": "/my-cv/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/my-cv/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/fa-v4compatibility.ttf": "/my-cv/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/ai.svg": "/my-cv/static/media/ai.46ed5e541cde635004ba14b6d873acfb.svg",
     "static/media/revicons.woff": "/my-cv/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/fa-v4compatibility.woff2": "/my-cv/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "static/media/nextjs.svg": "/my-cv/static/media/nextjs.3888e22776eb417539b847d9b1dc1f30.svg",
@@ -41,7 +44,6 @@
     "static/media/prisma.svg": "/my-cv/static/media/prisma.d3b18d27229ba62231030cfeffb6e86b.svg",
     "static/media/illustrator.svg": "/my-cv/static/media/illustrator.e3d6903472b35fccbf2ff2802db23fe3.svg",
     "static/media/python.svg": "/my-cv/static/media/python.b783694b6352d0ccce9eb9f550eda2ef.svg",
-    "static/media/bootstrap.svg": "/my-cv/static/media/bootstrap.5791a88b8e0cff4c15c3ca0edc0ca8ae.svg",
     "static/media/docker.svg": "/my-cv/static/media/docker.0bffaa28d6d6a094f3851fc19d4a8cfa.svg",
     "static/media/azure.svg": "/my-cv/static/media/azure.e2da3a4a08f1b174ae16fb1de8753eb6.svg",
     "static/media/django.svg": "/my-cv/static/media/django.e1f127ed5f86195f5b04bbc0576b4c83.svg",
@@ -49,6 +51,6 @@
   },
   "entrypoints": [
     "static/css/main.935d0068.css",
-    "static/js/main.e6d6bac0.js"
+    "static/js/main.3ae89b30.js"
   ]
 }
