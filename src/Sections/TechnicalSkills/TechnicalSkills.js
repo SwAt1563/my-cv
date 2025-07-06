@@ -21,7 +21,7 @@ const TechnicalSkills = () => {
                   <Card.Body>
                     {skill.icon}
                     <Card.Title>
-                      <h5>{skill.title}</h5>
+                      <h4>{skill.title}</h4>
                     </Card.Title>
                     <CustomBar value={skill.percent} />
                     <Card.Text className="content mt-2">

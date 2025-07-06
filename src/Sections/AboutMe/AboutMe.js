@@ -18,14 +18,7 @@ const AboutMe = () => {
             <div className="content col-md-6">
               <h2>About Me</h2>
               <p className="about-me-paragraph">
-                Software Engineer with 3 years of experience and a proven track
-                record as a Project Planner and Team Lead for a team of 7.
-                Specialized in artificial intelligence and Python, with over 5
-                years of experience, and expert in LLM, RAG, DRF, Celery, and
-                FastAPI. Proficient in containerizing services using Docker and
-                Docker Compose, and familiar with AWS services including EC2,
-                S3, SES, SM, and IAM. Knowledgeable in GitHub Actions for CI/CD
-                and experienced in unit testing with the pytest tool.
+                A Software Engineer with over 7 years of international experience, including 4 years specializing in AI. I bring strong technical expertise and cross-cultural communication skills to every project. I have successfully led multiple GenAI initiatives, designed and implemented scalable system architectures that provided real value.
               </p>
             </div>
 

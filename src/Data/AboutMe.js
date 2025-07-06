@@ -13,7 +13,7 @@ export const softSkills = [
 
   // Metrics data
   export const metrics = [
-    { label: "YouTube Views", value: 83000, icon: faYoutube },
-    { label: "Face-to-Face Lectures", value: 18, icon: faChalkboardTeacher },
+    { label: "YouTube Views", value: 129000, icon: faYoutube },
+    { label: "Face-to-Face Lectures", value: 21, icon: faChalkboardTeacher },
     { label: "Problem Solving", value: 244, icon: faPuzzlePiece },
   ];

@@ -1,0 +1,67 @@
+.researches {
+  background-color: var(--color-bg);
+}
+
+.researches a{
+  text-decoration: none;
+}
+
+.researches .researches-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.researches .research-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.researches .research-card:hover {
+  transform: translateY(-5px);
+}
+
+.researches .research-image {
+  object-fit: cover;
+  width: 100%; /* fills card */
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.researches .research-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.2rem;
+}
+
+.researches .research-content h3 {
+  color: var(--color-hightlight);
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.researches .research-content p {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.researches .research-content a {
+  display: inline-block;
+  margin-top: auto;
+  align-self: flex-end;
+  color: var(--color-hightlight);
+  font-weight: 600;
+}
+
+.researches .research-content a:hover {
+
+  color: var(--color-bg);
+
+}

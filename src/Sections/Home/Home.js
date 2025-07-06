@@ -35,12 +35,18 @@ const Home = () => {
                     // Same substring at the start will only be typed out once, initially
                     "Team Lead",
                     1000,
-                    "Artificial Intelligence Engineer",
+                    "AI Researcher",
                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                    "Full Stack Developer",
+                    "ML/GenAI Engineer",
                     1000,
-                    "Graphic Designer",
+                    "Data Scientist",
                     1000,
+                    "Full-Stack Developer",
+                    1000,
+                    "Mentor",
+                    1000,
+                    "Content Creator",
+                    1000
                   ]}
                   wrapper="span"
                   speed={50}
@@ -48,7 +54,7 @@ const Home = () => {
                   repeat={Infinity}
                 />
                 <p>
-                  If you're looking for effective solutions to your AI
+                  If you're looking for efficient and effective solutions to your AI
                   challenges, I'm here to help!
                 </p>
                 {/* Social Icons */}

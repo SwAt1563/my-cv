@@ -36,7 +36,7 @@ export const activitiesData = [
   {
     title: "Microsoft U-Tech League Edition 2024",
     description:
-      "The hackathon, with 48 participants, focused on creating a chatbot using GEN AI. I led over 15 mentors and organized the event from start to finish. The challenge highlighted exceptional talent and opened doors for future opportunities in the tech industry.",
+      "The hackathon, with 48 participants, focused on creating a chatbot using GenAI. I led over 15 mentors and organized the event from start to finish. The challenge highlighted exceptional talent and opened doors for future opportunities in the tech industry.",
     image: MicrosoftEventSrc,
     link: "https://www.linkedin.com/posts/qutaiba-olayyan_utechleague-hackathon-genai-activity-7212454718621556737-1CjZ?utm_source=share&utm_medium=member_desktop",
   },

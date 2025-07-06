@@ -7,3 +7,7 @@
   height: 50px;
   color: var(--color-hightlight);
 }
+
+.technical-skills h4 {
+  color: var(--color-hightlight);
+}

@@ -14,7 +14,7 @@ const Timeline = ({ title, year, duration, content }) => {
           </div>
         </div>
         <div class="timeline-content">
-          <h5 class="title">{title}</h5>
+          <h5 class="title" dangerouslySetInnerHTML={{ __html: title }}/>
           <p
             className="description"
             dangerouslySetInnerHTML={{ __html: content }}

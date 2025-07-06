@@ -1,32 +1,38 @@
 export const timelinesData = [
   {
-    title: "Software Engineer & Team Lead at RHV",
+    title: `<a href="https://www.linkedin.com/company/ai-into" target="_blank">Lead AI Backend Engineer at INTO AI</a>`,
+    year: "2025",
+    duration: "Present",
+    content: `Led both the backend and AI development as a hands-on owner, designing scalable product architecture, including database schemas, APIs, and AI workflows to ensure modularity and ease of onboarding. Delivered two alpha-stage generative AI products in one month for clients in hospitality (Operto) and real estate (Livya). Engineered robust systems for input/output validation, webhook processing, rate limiting, and SDK development, with detailed API documentation to support client integrations. Built real-time voice agents, a dynamic prompt management system, and advanced data extraction tools including web scrapers and PDF parsers. Designed intelligent content chunking strategies and a custom SDK for vector database management. Ensured high system reliability through fault tolerance, multithreading, parallelism, and observability tools. Collaborated closely with clients to meet evolving priorities. Tech stack includes OpenAI, LangChain, Vertex AI, FastAPI, Celery, Milvus, PostgreSQL, Docker, and more.`,
+  },
+  {
+    title: `<a href="https://www.linkedin.com/company/10folders" target="_blank">AI Software Engineer at 10Folders</a>`,
+    year: "2024",
+    duration: "Present",
+    content: `Built an AI-powered interviewer platform that uses generative AI to streamline pre-screening by identifying the top 10 candidates from 300+ resumes, eliminating manual review. Designed a scalable microservices architecture with optimized database schemas, intuitive user journeys, and wireframes aligned with business goals. Integrated OpenAI’s TTS and Whisper for voice and video-based multilingual interviews, supporting dynamic answer evaluation with conditional logic. Developed a prompt management system with syntax validation, LLM fallback, and variable handling, and built a resume parser for structured data extraction and summarization. Managed local macOS servers with secure VPN access, emulated AWS services using LocalStack, and utilized a modern tech stack including FastAPI, Celery, MongoDB, Docker, and GitHub Actions.`
+  },
+  {
+    title: `<a href="https://www.linkedin.com/company/rhv-intelligence-precision" target="_blank">Team Lead at RHV</a>`,
     year: "2024",
     duration: "6 Months",
-    content: `As a Software Engineer and Team Lead at <a href="https://rhvco.io/" target="_blank">RHV</a>, As Scrum Master, I led a team of 7 and completed 16 one-week sprints using Agile methodology, overseeing features, integrations, and task management. I developed a chatbot system with RAG and FastAPI, created 300+ APIs, and implemented real-time chat and notifications with Django Channels and Redis. I set up Docker environments, integrated AWS services, and established CI/CD with GitHub Actions. I also developed scraping solutions, built database models with Django ORM, and designed authentication and user interaction systems. Additionally, I conducted backend testing with Pytest and worked with Twitter APIs for data retrieval.`,
+    content: `Led a cross-functional team in the Esquisse project, overseeing frontend, UI/UX, data, and DevOps efforts to build a sophisticated chatbot system for a startup community. The chatbot enables querying and analysis of both structured and unstructured data, supports data visualization, dynamic tables, and integrates external content from websites and YouTube. Developed personalized recommendation systems for news, events, and users, alongside real-time chat, notifications, dashboards, and LinkedIn-style connection and follow features. Engineered large-scale web scraping across 32 websites using Selenium, structured with LLMs, and integrated Twitter APIs for targeted data retrieval. Managed 22 Agile sprints as Scrum Master, maintaining direct coordination with the CEO and client, while designing scalable system architecture for microservices. Utilized a comprehensive stack including Django, FastAPI, LangChain, Ollama, PostgreSQL, Qdrant, Redis, Docker, Celery, and AWS services.`
   },
   {
-    title: "Backend Developer Internship at EXALT",
+    title: `<a href="https://www.linkedin.com/posts/qutaiba-olayyan_microsoft-microsoftcertified-azureaifundamentals-activity-7189261872204759042-Vr7y" target="_blank">Microsoft Beacon Program</a>`,
+    year: "2022",
+    duration: "2 Year",
+    content: `Earned the Microsoft Certified: Azure AI Fundamentals (AI-900), showcasing strong knowledge of AI workloads, machine learning, computer vision, NLP, and generative AI on Azure. Completed over 28 hours of focused training across 10 learning paths on Microsoft Learn. Engineered and deployed the COPPA-compliant SEL Assistant Chatbot, prioritizing privacy and safety for users under 13. Led a team in the Microsoft AI/ML Hackathon, outperforming 25 participants across 5 teams, and won the Social Innovation Award for using technology to address social challenges.`
+  },
+  {
+    title: `<a href="https://www.linkedin.com/company/exalt-technologies" target="_blank">Backend Developer Internship at EXALT</a>`,
     year: "2022",
     duration: "2 Month",
-    content: `During my tenure in a developer internship at <a href="https://exalt-tech.com/" target="_blank">EXALT</a>, I garnered substantial experience in a diverse array of technologies and development methodologies, encompassing HTML, CSS, Django, Celery, Redis, payment-gateway, Docker, Pytest, JS, Django Rest Framework, Heroku, AWS and Github. I worked on several projects such as online shop, social network, recruitment website, and mobile shop which helped me to improve my testing skills, deepen my understanding of web development, familiarize myself with the Django Rest Framework and develop my collaboration and teamwork skills. Additionally, I have gained experience in containerization and hosting using Docker and AWS, which helped me to improve my skills in deployment and scaling web applications.`,
+    content: `Contributed to the backend development of 4+ e-commerce platforms, focusing on server-side logic, data modeling, and API integration. Gained hands-on experience with containerization and cloud infrastructure.`
   },
   {
-    title: "Microsoft Mentoring Program",
-    year: "2022",
-    duration: "1 Year",
-    content: `Engaging with the Microsoft Mentoring Program, I had the opportunity to work closely with a <a href="https://www.linkedin.com/in/benedict-berger-msft/" target="_blank">mentor</a>, gaining insights into effective teamwork, selecting team members for specialized projects, and initiating projects with a specific focus. The mentorship significantly contributed to my professional development, providing practical knowledge for future endeavors. Additionally, I completed Microsoft Learn modules on Azure fundamentals and AI, including the 'Career Essentials in Generative AI' program, a collaborative effort by Microsoft and LinkedIn. This training equipped me with practical knowledge in Azure and AI, ready to be applied in real-world projects.`,
-  },
-  {
-    title: "Graphic Designer",
-    year: "2020",
-    duration: "2 Year",
-    content: `With a rich tapestry of experience woven through the realms of Adobe Photoshop and Illustrator, my journey in graphic design has been both profound and transformative. Mastering Photoshop has enabled me to meticulously edit images, ensuring they harmonize perfectly with the aesthetic and functional needs of my diverse range of products. This expertise allows me to not only enhance visual appeal but also to tailor visuals that speak the language of my brand's identity. Meanwhile, Illustrator has been my canvas for creativity, where my concepts come to life in the form of logos, icons, advertisements, covers, brands, pipelines, and proposals. This powerful combination of tools has equipped me with the versatility and skill to navigate the vast seas of graphic design, making me adept at translating ideas into visual realities that captivate and communicate effectively.`,
-  },
-  {
-    title: "Student Teacher",
+    title: `<a href="https://www.youtube.com/@SwAt1563/playlists" target="_blank">Teaching Assistant</a>`,
     year: "2019",
     duration: "4 Years",
-    content: `I am a proactive self-starter with a passion for teaching and sharing my knowledge. I have taken the initiative to create and upload a series of educational videos on my<a href="https://www.youtube.com/@SwAt1563/playlists" target="_blank"> YouTube channel</a>, covering a range of topics in computer engineering, including Assembly Language Programming 8086, Machine Learning, Integrated Circuits, Real-Time and Embedded Systems. These videos have been well received by a large audience and have helped to improve my communication and teaching skills. Additionally, I have volunteered to give face-to-face lectures to computer science and computer engineering students on subjects such as Calculus, Physics, C, Java, Assembly, Data Structure, Operating System, Machine Learning, Real-Time and Embedded Systems. Recognizing the importance of practical application, I accomplished a rigorous full-stack bootcamp, culminating in a 24-hour intensive session where I successfully imparted comprehensive knowledge to 16 students.`,
+    content: `Delivered over 21 in-person lectures and 33 online sessions to Computer Science and Engineering students on subjects like Machine Learning, Data Structures, Operating Systems, Java, and more. Created and published educational video series on four major courses, Machine Learning, Real-Time Systems, Integrated Circuits, and Assembly 8086, garnering over 129k views on YouTube. Also led a one-month full-stack development bootcamp for 16 students, providing 24 hours of hands-on training in modern web development skills.`
   },
 ];

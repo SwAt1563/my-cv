@@ -11,7 +11,7 @@ const WebProjects = () => {
   
   return (
     <>
-      <Section id="web-projects" title="Web Development Projects">
+      <Section id="web-projects" title="Public Web Projects">
         <div class="container py-4">
           {projectsData.map((data, index) => (
             <HorizontalCard key={index} {...data} />

@@ -72,7 +72,7 @@ const Languages = () => {
             {languages.map((language) => (
               <div
                 key={language.name}
-                className="language col-md-3 col-sm-6 d-flex align-items-center justify-content-center mb-4"
+                className="language col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-4"
               >
                 <div
                   id={`${language.name.toLowerCase()}-circle`}

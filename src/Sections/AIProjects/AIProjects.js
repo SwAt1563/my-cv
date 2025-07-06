@@ -17,7 +17,7 @@ const AIProjects = () => {
 
   return (
     <>
-      <Section id="ai-projects" title="Artificial Intelligence Projects">
+      <Section id="ai-projects" title="Public AI Projects">
         <Container className="text-center">
           {projects.map((project, index) => (
             <div key={index} className="w-75 project-card mx-auto mt-4">

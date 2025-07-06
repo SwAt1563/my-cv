@@ -38,7 +38,7 @@ const Header = () => {
             duration={300} // Adjust the duration of the scroll
           >
             <h2 className="name">QUTAIBA OLAYYAN</h2>
-            <h5 className="field">Team Lead | Software Engineer | AI Engineer</h5>
+            <h5 className="field">Team Lead | ML/GenAI Engineer | AI Researcher</h5>
           </ScrollLink>
         </nav>
       </header>

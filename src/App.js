@@ -18,7 +18,7 @@ import {
   Education,
   TechnicalSkills,
   GraphicSkills,
-  GraduationProject,
+  Researches,
   WebProjects,
   AIProjects,
   Tutorials,
@@ -68,12 +68,12 @@ const App = () => {
         <Fade bottom>
           <TechnicalSkills />
         </Fade>
-        <Fade bottom>
+        {/* <Fade bottom>
           <GraphicSkills />
-        </Fade>
+        </Fade> */}
 
         <Fade bottom>
-          <GraduationProject />
+          <Researches />
         </Fade>
 
         <Fade bottom>

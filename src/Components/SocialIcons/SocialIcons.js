@@ -1,8 +1,6 @@
 import {
-  FaFacebook,
-  FaInstagram,
-  FaSnapchat,
   FaLinkedin,
+  FaOrcid,
   FaGithub,
   FaBehance,
 } from "react-icons/fa";
@@ -26,38 +24,6 @@ const SocialIcons = () => {
     <>
       <div className="social-icons">
         <ul className="wrapper">
-          <li className="icon">
-            <Link
-              to="https://www.facebook.com/qutaibaOlayyan/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="tooltip">Facebook</span>
-              <FaFacebook />
-            </Link>
-          </li>
-          <li className="icon">
-            <Link
-              to="https://www.instagram.com/qutaiba_olayyan/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="tooltip">Instagram</span>
-
-              <FaInstagram />
-            </Link>
-          </li>
-
-          <li className="icon">
-            <Link
-              to="https://www.snapchat.com/add/qutaiba_olayyan"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="tooltip">Snapchat</span>
-              <FaSnapchat />
-            </Link>
-          </li>
 
           <li className="icon">
             <Link
@@ -65,7 +31,7 @@ const SocialIcons = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="tooltip">Linkedin</span>
+              <span className="tooltip">LinkedIn</span>
               <FaLinkedin />
             </Link>
           </li>
@@ -76,12 +42,23 @@ const SocialIcons = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="tooltip">Github</span>
+              <span className="tooltip">GitHub</span>
               <FaGithub />
             </Link>
           </li>
 
           <li className="icon">
+            <Link
+              to="https://orcid.org/0009-0004-7999-5553"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="tooltip">ORCID</span>
+              <FaOrcid />
+            </Link>
+          </li>
+
+          {/* <li className="icon">
             <Link
               to="https://www.behance.net/qutaibolayyan"
               target="_blank"
@@ -90,9 +67,9 @@ const SocialIcons = () => {
               <span className="tooltip">Behance</span>
               <FaBehance />
             </Link>
-          </li>
+          </li> */}
 
-          <li className="icon">
+          {/* <li className="icon">
             <Link
               to="https://www.upwork.com/freelancers/~01cb3a01b965e43c1a"
               target="_blank"
@@ -132,7 +109,7 @@ const SocialIcons = () => {
                 onMouseLeave={(e) => (e.target.style = { ...iconStyle })}
               />
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
